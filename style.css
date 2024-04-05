@@ -150,6 +150,23 @@ color: #1d1d1d;
     background-color: #ffffff;
     padding: 8px 14px;
     font-weight: 500;
-    box-shadow: 0px 0px 12px 4px rgba (0, 0, 0 , 0.1);
-    border-radius: 12px;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0,0.1);
+    border-radius: 15px;
+}
+
+.social-media-buttons{
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
 }
